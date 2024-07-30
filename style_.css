@@ -1,0 +1,152 @@
+.home{
+    background-image:url(red.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:aliceblue;
+    height:max-content;
+}
+.home button{
+    margin-bottom: 200px;
+}
+button{
+    margin-bottom: 200px;
+}
+.home ul{
+    display: flex;
+    margin-bottom: 150px;
+}
+.home ul li{
+    list-style-type: none;
+    margin-right: 15px;
+    font-size: 1.3em;
+    color: black;
+}
+.btn{
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: white;
+}
+.first{
+    margin-top: 50px;
+    padding-top: 50px;
+    align-content: center;
+    height: 300px;
+    width: 100%;
+    display: contents;
+}
+.first button{
+    margin-bottom: 30px;
+}
+.third{
+    background-color:#ae6161;
+}
+
+.card-container{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #ae6161;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0%;
+}
+.card{
+    width: 350px;
+    background-color: #ae3d3d;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0,2);
+    margin: 20px;
+    height: auto;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 16px;
+    height: 250px;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+
+
+.foot{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #111;
+}
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
